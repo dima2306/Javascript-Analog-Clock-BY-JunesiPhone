@@ -1,0 +1,47 @@
+	*{
+		margin:0;
+		padding: 0;
+  }
+	.clock{
+		position: absolute;
+    top:20px;
+    left:20px;
+		width: 100px;
+		height: 100px;
+		background-color: black;
+		border-radius: 100%;
+		background-image: url("http://junesiphone.com/images/clock.png");
+		background-size: 100px;
+	}
+	.transform{
+		width: 2px;
+		position: absolute;
+		left:49px;
+		-webkit-transform-origin:bottom;
+	}
+	#s{
+		top:9px;
+		background-color: red;
+		height: 40px;
+	}
+	#m{
+		top:19px;
+		background-color: black;
+		height: 30px;
+	}
+	#h{
+		top:24px;
+		background-color: black;
+		height: 25px;
+	}
+	#center{
+		position: absolute;
+		left:45px;
+		top:45px;
+		width: 10px;
+		height: 10px;
+		background-color: black;
+		border-radius: 100%;
+	}
+
+html{background:#393939}
